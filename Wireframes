@@ -1,0 +1,55 @@
+# 항해99 온보딩 25조 미니 프로젝트
+
+<br>
+
+## 🏖️ 프로젝트명 : 연진아, 날씨 어때?
+### 프로젝트 간단 설명 : 지역별 기온, 강수량, 미세먼지농도, 자외선 수치를 연진이가 모아서 알려주는 프로그램입니다.
+
+<br>
+
+## 🏖️ 와이어프레임
+
+- 첫 페이지 (연진 영상 자동재생)
+![](https://velog.velcdn.com/images/hohomi/post/7ebe1d49-17e4-4133-bc90-2aeb48f775ef/image.png)
+
+- 시 단위 지역 선택
+![](https://velog.velcdn.com/images/hohomi/post/f258d73d-341e-4442-8953-5dafb5e47b23/image.png)
+
+- 구 단위 지역 선택
+![](https://velog.velcdn.com/images/hohomi/post/e210f879-4afe-45c7-b414-1ff3d774eef4/image.png)
+
+- 선택 지역의 날씨 안내 (기온, 강수량, 미세먼지농도, 자외선 수치)
+![](https://velog.velcdn.com/images/hohomi/post/e0b686d3-1c5e-497d-ba2a-089caa008afe/image.png)
+
+- '다른 지역보기'를 눌렀을 때 메인 화면으로 돌아가기
+![](https://velog.velcdn.com/images/hohomi/post/84bcddd0-f9e2-45ab-a02a-b42835a821e8/image.png)
+
+<br>
+
+## 🏖️ API(개발해야 하는 기능들)
+
+- 메인페이지  : 원하는 지역을 클릭하여 선택하는  페이지
+
+- 메인페이지 기능
+1) "이쁜아 날씨 어때" 영상 재생
+(A안. 페이지 접속시 재생 / B안. 버튼 클릭 시 재생)
+2)  지역 클릭 시 해당 지역 지도로 넘어가는 기능
+ex)서울특별시,강원도,경기도 중 택 1 지역 지도로 넘어감
+
+- 서브페이지 기능
+ 고른 지역의 상세지역 선택하는 기능
+ex)서울특별시->광진구 선택 시 광진구 지역의 날씨 목록 출력
+
+- 필요한 기능 : requests 라이브러리 사용해서 크롤링
+1) 지역별 온도 api 가져오기
+2) 지역별 강수량 api 가져오기
+3) 지역별 미세먼지 api 가져오기
+4) 지역별 자외선 api 가져오기
+5) 조건문 달아서 일정 수치가 충족되면 msg 출력(ex. 강수량 10L 넘어갈 시 : 우산쓰세요~)
+6) 버튼 클릭 시 지역 선택 페이지로 재이동
+
+<br>
+
+## 🏖️ public github repo 주소
+
+https://github.com/silversheep26/miniproject-1-
