@@ -16,6 +16,7 @@
     김은서 : 전체 페이지 CSS  
     김근보 : 전체 페이지 CSS  
     김은양 : 전체 페이지 CSS    
++ 와이어 프레임 : [미니 프로젝트 <연진아, 날씨 어때?> SA](https://velog.io/@hohomi/%EB%AF%B8%EB%8B%88-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%EC%97%B0%EC%A7%84%EC%95%84-%EB%82%A0%EC%94%A8-%EC%96%B4%EB%95%8C-1%EC%9D%BC%EC%B0%A8)
 <br/>
     
 ### 2. 사용 기술
